@@ -18,7 +18,7 @@ const Profile = ({
           alt="User avatar"
         />
         <p className={css.cardUserName}>{name}</p>
-        <p className={css.cardUserTag}>{tag}</p>
+        <p className={css.cardUserTag}>@{tag}</p>
         <p className={css.cardUserLoc}>{location}</p>
       </div>
 
