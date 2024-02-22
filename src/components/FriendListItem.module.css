@@ -1,0 +1,24 @@
+.friendImg{
+margin-top: 10px;
+}
+
+.friendName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+.offline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
