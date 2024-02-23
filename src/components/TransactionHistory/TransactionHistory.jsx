@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import transactions from '../transactions.json'
 import css from './TransactionHistory.module.css'
+import transactions from "../../data/transactions.json"
 
 const TransactionHistory = () => {
   return (

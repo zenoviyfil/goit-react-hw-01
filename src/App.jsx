@@ -1,10 +1,10 @@
 /* eslint-disable no-irregular-whitespace */
-import FriendList from "./components/FriendList";
-import friends from "./friends.json"
-import Profile from "./components/Profile";
-import userData from "./userData.json";
-import TransactionHistory from "./components/TransactionHistory";
-import transactions from "./transactions.json"
+import Profile from "./components/Profile/Profile";
+import userData from "./data/userData.json";
+import FriendList from "./components/FriendList/FriendList";
+import friends from "./data/friends.json"
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+import transactions from "./data/transactions.json"
 
 const App = () => {
     return (

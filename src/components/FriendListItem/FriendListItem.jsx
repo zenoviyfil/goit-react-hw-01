@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import css from "../components/FriendListItem.module.css"
+import css from "./FriendListItem.module.css"
 
 
 const FriendListItem = ({avatar, name, isOnline}) => {
