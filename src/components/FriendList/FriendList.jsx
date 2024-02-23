@@ -12,7 +12,7 @@ const FriendList = ({friends}) => {
                 <FriendListItem 
                 avatar={friend.avatar} 
                 name={friend.name} 
-                isOnline={friend.isOnline ? "Online" : "Offline"} />
+                isOnline={friend.isOnline} />
                 </li>
             )
         })}
