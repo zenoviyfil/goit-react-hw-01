@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import css from './TransactionHistory.module.css'
-import transactions from "../../data/transactions.json"
 
-const TransactionHistory = () => {
+const TransactionHistory = ({transactions}) => {
   return (
     <table className={css.transactionsTable}>
         <thead>
